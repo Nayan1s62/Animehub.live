@@ -3,119 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Attack on Titan Wallpapers | AnimeHub</title>
 
 <link rel="stylesheet" href="style.css">
-
-<style>
-/* GLOBAL RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background: #0f0f1a;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* HEADER */
-header {
-    padding: 20px;
-    background: #121212;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-header a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* HERO */
-.anime-hero {
-    width: 100%;
-    height: 420px;
-    overflow: hidden;
-}
-
-.anime-hero img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-/* CONTENT */
-.section {
-    padding: 40px 6%;
-}
-
-.section h2 {
-    margin-bottom: 10px;
-    font-size: 28px;
-}
-
-/* WALLPAPER GRID */
-.wallpapers-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 20px;
-}
-
-.wallpaper-card {
-    background: #1a1a2e;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: 0.3s ease;
-}
-
-.wallpaper-card:hover {
-    transform: scale(1.04);
-}
-
-.wallpaper-card img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-}
-
-.wallpaper-overlay {
-    padding: 10px;
-    text-align: center;
-}
-
-.wallpaper-overlay h3 {
-    margin-bottom: 5px;
-}
-
-.wallpaper-overlay a {
-    color: #ff4da6;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-/* FOOTER */
-footer {
-    background: #111;
-    padding: 30px;
-    text-align: center;
-    margin-top: 50px;
-}
-</style>
 </head>
 
 <body>
 
-<header>
-    <h2>AnimeHub.Live</h2>
+<header class="header">
+    <h1>AnimeHub</h1>
 </header>
 
 <section class="anime-hero">
-    <img src="images/attack-on-titan-3840x2160-10442.jpg" alt="Attack on Titan">
+    <img src="images/attack-on-titan-3840x2160-10442.jpg" alt="Attack on Titan" class="hero-img">
 </section>
 
 <section class="section">
@@ -125,37 +26,29 @@ footer {
 
         <div class="wallpaper-card">
             <img src="images/1.jpg" alt="Eren Yeager">
-            <div class="wallpaper-overlay">
-                <h3>Eren Yeager</h3>
-            </div>
+            <p>Eren Yeager</p>
         </div>
 
         <div class="wallpaper-card">
             <img src="images/2.jpeg" alt="Mikasa Ackerman">
-            <div class="wallpaper-overlay">
-                <h3>Mikasa Ackerman</h3>
-            </div>
+            <p>Mikasa Ackerman</p>
         </div>
 
         <div class="wallpaper-card">
             <img src="images/3.jpg" alt="Levi Ackerman">
-            <div class="wallpaper-overlay">
-                <h3>Levi Ackerman</h3>
-            </div>
+            <p>Levi Ackerman</p>
         </div>
 
         <div class="wallpaper-card">
             <img src="images/4.jpg" alt="Attack on Titan">
-            <div class="wallpaper-overlay">
-                <h3>Attack on Titan</h3>
-            </div>
+            <p>Attack on Titan</p>
         </div>
 
     </div>
 </section>
 
 <footer>
-    <p>© 2025 AnimeHub.Live — All Rights Reserved</p>
+    <p>© 2025 AnimeHub.Live</p>
 </footer>
 
 </body>
