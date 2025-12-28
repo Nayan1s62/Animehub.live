@@ -1,77 +1,40 @@
-/* RESET */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
+    margin: 0;
     background: #0f0f1a;
-    color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-family: Arial, sans-serif;
 }
 
-/* HEADER */
 .header {
-    text-align: center;
     padding: 20px;
+    text-align: center;
     background: #111;
 }
 
-.header h1 {
-    color: #ff4da6;
-    font-size: 2.2rem;
-}
-
-/* HERO IMAGE */
-.hero {
+.anime-hero img {
     width: 100%;
-    max-height: 500px;
-    overflow: hidden;
-}
-
-.hero img {
-    width: 100%;
-    height: 100%;
+    height: 60vh;
     object-fit: cover;
-    display: block;
 }
 
-/* GALLERY SECTION */
-.gallery {
+.section {
+    padding: 40px;
+}
+
+.wallpapers-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 20px;
-    padding: 30px;
 }
 
-/* IMAGE CARD */
-.card {
-    background: #1b1b2f;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
-
-.card:hover {
-    transform: scale(1.05);
-}
-
-/* IMAGE SIZE FIX */
-.card img {
+.wallpaper-card img {
     width: 100%;
-    height: 260px;
+    height: 300px;
     object-fit: cover;
-    display: block;
+    border-radius: 10px;
 }
 
-/* MOBILE FIX */
-@media (max-width: 600px) {
-    .hero {
-        max-height: 300px;
-    }
-
-    .card img {
-        height: 200px;
-    }
+.wallpaper-card p {
+    text-align: center;
+    margin-top: 10px;
 }
